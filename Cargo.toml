@@ -19,6 +19,7 @@ base64 = "0.21"
 actix-web = "4"
 hmac = "0.12.1"
 sha1 = "0.10.6"
+qrcode = "0.14.1"
 [[example]]
 name = "webhook"
 path = "examples/webhook.rs"
@@ -33,4 +34,30 @@ path = "examples/webhook.rs"
 
 [[example]]
 name = "whatsapp_text"
-path = "examples/webhook.rs"
+path = "examples/whatsapp_text.rs"
+
+[[example]]
+name = "customer_service"
+path = "examples/customer_service_bot.rs"
+
+[[example]]
+name = "ecommerce"
+path = "examples/whatsapp_ecommerce.rs"
+[[example]]
+name = "interactive"
+path = "examples/whatsapp_interactive.rs"
+
+[[example]]
+name = "payments"
+path = "examples/whatsapp_payments.rs"
+
+[[example]]
+name = "reminders"
+path = "examples/whatsapp_reminders.rs"
+[[example]]
+name = "multilingual"
+path = "examples/multilingual.rs"
+
+[[example]]
+name = "content_template"
+path = "examples/content_template.rs"

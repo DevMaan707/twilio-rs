@@ -1,6 +1,7 @@
 // lib.rs
 
 pub mod client;
+pub mod payments;
 pub mod signature;
 pub mod sms;
 pub mod webhook;
